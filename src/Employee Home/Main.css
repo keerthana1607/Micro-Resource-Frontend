@@ -1,0 +1,138 @@
+/* .hero{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('https://media.istockphoto.com/id/1346853640/photo/saving-money-concept-man-hand-putting-row-and-coin-write-finance-saving-money-concept-man.jpg?s=612x612&w=0&k=20&c=1I48V9GUU0liAJ-dMA4SW-h5LoejkBTlEZJ-0b_vmXE=');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+.hello {
+    width: 100%;
+    height: 100vh; /* Ensure full viewport height */
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('https://images.pexels.com/photos/6914071/pexels-photo-6914071.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello-text{
+    text-align: center;
+    max-width: 800px;
+
+}
+.hello-text h1{
+    font-size: 60px;
+    font-weight: 600;
+
+}
+.hello-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}   
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*/
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+  }
+  body{
+    background: #f5f5f5;
+  } 
+  a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .com{
+    padding-left: 7%;
+    padding-right: 10%;
+  }
+  .btnn{
+    background: white;
+    color: #212121;
+    padding:14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .btnn:hover{
+    background-color: grey;
+  }
+  .btnn.dark{
+    background: #2a216f;
+    color: #fff;
+  }
+  .btnn.dark:hover{
+    background-color: grey;
+  }
+  /*---------------media---------------*/
+  @media (max-width: 1200px) {
+  .com{
+    padding-left: 5%;
+    padding-right: 5%;
+  
+  }
+  .btnn{
+    padding: 14px 32px;
+  }
+  }
+
+/* src/Main.css */
+
+/* src/components/Main.css */
+
+
+.chat-icon-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chat-icon {
+  background-color: #007bff;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+ 
+/*---------------*/
+@media (max-width:850px){
+    
+
+    .hello-text h1{
+        font-size: 40px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hello-text p{
+        font-size: 14px;
+       margin: 15px auto 30px;
+    }
+}
